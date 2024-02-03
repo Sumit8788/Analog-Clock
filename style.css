@@ -5,29 +5,28 @@
     width: 40vw;
     background-image: url(/Images/Clock.png);
     background-size: contain;
-    border: 2px solid black;
 }
 #hour,#minute,#second{
     position: absolute;
     background: black;
     border-radius: 10px;
+    transform-origin: bottom;
 }
 #hour{
     height: 25%;
     width: 1%;
-    top: 27%;
-    left: 49.5%;
-    
+    top: 24.5%;
+    left: 49.3%;
 }
 #minute{
     height: 30%;
     width: .8%;
-    top: 22%;
-    left: 49.6%;
+    top: 19.5%;
+    left: 49.4%;
 }
 #second{
     height: 35%;
     width: 0.5%;
-    top: 17%;
-    left: 49.8%;
+    top: 14.5%;
+    left: 49.5%;
 }
